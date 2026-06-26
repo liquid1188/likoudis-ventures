@@ -1,12 +1,8 @@
-# Likoudis Ventures — static copy
+# likoudis-ventures (static mirror)
 
-A static snapshot of the **Likoudis Ventures** website, published here on GitHub Pages.
+Auto-generated static export of the Likoudis Ventures site.
+Source (canonical, full features): https://github.com/liquid1188/likoudisventures (deploys to Vercel).
 
-> ⚠️ **The live production website is hosted on Vercel:** https://likoudisventures.vercel.app
-> Source (Next.js): https://github.com/liquid1188/likoudisventures
-
-This repository is a static mirror kept for archival and portfolio reference. Some
-interactive features (the contact form, client-side animations) are simplified or
-disabled in this copy — for the full live experience, visit the Vercel deployment above.
-
-Built by Lickity Split Web Design · Andrew Likoudis.
+This mirror is a static export built with `output: 'export'` + `basePath: '/likoudis-ventures'`.
+Forms, newsletter, and admin are STUBBED here (they only work on the live Vercel site).
+Regenerate by building the source with the export config and copying `out/` over this repo's contents.
